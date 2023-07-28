@@ -1,9 +1,7 @@
 import streamlit as st
-import emoji
 from PIL import Image
-simbol = emoji.emojize('💻')
 
-st.set_page_config(page_title='Home', page_icon = simbol)
+st.set_page_config(page_title='Home', page_icon = '🎲')
 
 image_path = 'logo.png'
 image = Image.open( image_path )
